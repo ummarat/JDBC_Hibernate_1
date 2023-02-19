@@ -1,0 +1,5 @@
+INSERT INTO arhiv (fond, opis, sprava, name, stor) VALUES (1, 2, 245, 'Метрична книга', 302);
+INSERT INTO arhiv (fond, opis, sprava, name, stor) VALUES (1, 3, 120, 'Метрична книга', 64);
+INSERT INTO arhiv(fond, opis, sprava, name, stor) VALUES (2, 2, 789, 'Метрична книга', 541);
+SELECT * FROM arhiv;
+DELETE FROM arhiv WHERE sprava = 120;
